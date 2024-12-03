@@ -1,0 +1,5 @@
+{
+  "storageThreshold": 1000, // Maximum GB per user
+  "processingThreshold": 10000 // Maximum processing units per user
+}
+

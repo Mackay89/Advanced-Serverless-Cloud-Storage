@@ -1,0 +1,6 @@
+{
+  "syncInterval": 300000, // Sync interval in milliseconds (5 minutes)
+  "cacheDirectory": "./data/cache", // Directory to store cached data
+  "apiBaseUrl": "https://api.example.com" // API base URL for data sync
+}
+

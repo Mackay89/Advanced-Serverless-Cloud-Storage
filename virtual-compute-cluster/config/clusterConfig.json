@@ -1,0 +1,10 @@
+{
+  "region": "us-east-1",
+  "gpuInstanceType": "g4dn.xlarge",
+  "hpcNodeCount": 4,
+  "autoScalingGroup": {
+    "minSize": 1,
+    "maxSize": 10
+  }
+}
+

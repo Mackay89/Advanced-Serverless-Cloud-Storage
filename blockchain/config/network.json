@@ -1,0 +1,6 @@
+{
+    "network": "ethereum",
+    "rpc_url": "http://localhost:8545",
+    "deployer_account": "YOUR_DEPLOYER_ACCOUNT_PRIVATE_KEY"
+}
+

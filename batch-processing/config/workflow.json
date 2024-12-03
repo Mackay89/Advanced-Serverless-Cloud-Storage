@@ -1,0 +1,20 @@
+{
+  "rabbitmq": {
+    "host": "localhost",
+    "queue_name": "video_tasks"
+  },
+  "kafka": {
+    "bootstrap_servers": "localhost:9092",
+    "topic_name": "video_tasks"
+  },
+  "transcoding": {
+    "input_dir": "/data/input_videos",
+    "output_dir": "/data/output_videos",
+    "ffmpeg_path": "/usr/bin/ffmpeg",
+    "resolution": "7680x4320",
+    "codec": "libx265",
+    "preset": "fast",
+    "crf": 28
+  }
+}
+

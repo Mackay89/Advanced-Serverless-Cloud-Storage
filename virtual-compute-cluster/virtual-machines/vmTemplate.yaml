@@ -1,0 +1,12 @@
+# Cloud-init template for VM provisioning
+#cloud-config
+hostname: compute-node
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3... your-public-key
+packages:
+  - docker.io
+  - nvidia-driver-460
+runcmd:
+  - [ sh, -c, "systemctl start docker" ]
+  - [ sh, -c, "nvidia-smi" ]
+

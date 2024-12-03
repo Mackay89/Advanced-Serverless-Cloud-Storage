@@ -1,0 +1,7 @@
+{
+    "jwtSecret": "your_secure_jwt_secret",
+    "encryptionAlgorithm": "aes-256-cbc",
+    "mfaIssuer": "AdvancedCloudStorage",
+    "keyRotationInterval": "30d"
+}
+
